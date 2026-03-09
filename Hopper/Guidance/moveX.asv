@@ -1,0 +1,20 @@
+function ref_new = moveX(ref, p, t, tstop, dt)
+    % MOVEX Summary of this function goes here
+    %   Detailed explanation goes here
+    
+    vxd = p.vx;
+    if t < tstop
+        ref_new([1,4]]) = ref([1,4]]) [vxd*t; ref(2:3);
+                   vxd;   ref(5:6);
+                   ref(7:9);
+                   ref(10:12)
+        ];
+    else
+        ref_new = [vxd*tstop; ref(2:3);
+                   0;         ref(5:6);
+                   ref(7:9);
+                   ref(10:12)
+        ];
+    end
+end
+

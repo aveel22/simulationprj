@@ -1,0 +1,13 @@
+guide_params.X = 10;
+guide_params.Y = 5;
+guide_params.Z = 0;
+guide_params.vx = 1;
+guide_params.vxl = 0.4;
+guide_params.vy = 0.5;
+guide_params.vz = 0.5;
+guide_params.roll = 0;
+guide_params.pitch = pi/2;
+guide_params.yaw = 0;
+guide_params.wx = 0;
+guide_params.wy = 0;
+guide_params.wz = 0;
